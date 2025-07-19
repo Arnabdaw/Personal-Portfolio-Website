@@ -1,0 +1,354 @@
+/* Base Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styles */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.welcome-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #444;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+h2 i {
+    margin-right: 10px;
+    color: #6e8efb;
+}
+
+h3 {
+    color: #555;
+    font-size: 1.3rem;
+    margin: 20px 0 15px;
+}
+
+h3 i {
+    margin-right: 8px;
+    color: #a777e3;
+}
+
+/* Content Styles */
+.content {
+    padding: 0 10px;
+}
+
+p {
+    line-height: 1.7;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Experience Section Styles */
+.job {
+    padding: 15px;
+    border-left: 4px solid #6e8efb;
+    background-color: #f9f9f9;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 15px;
+}
+
+.company, .institution, .period, .year, .semester, .cgpa, .description {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.company i, .institution i, .period i, .year i, .semester i, .cgpa i, .description i {
+    margin-right: 8px;
+    color: #6e8efb;
+    width: 20px;
+    text-align: center;
+}
+
+.description {
+    background-color: #f8f9ff;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 3px solid #a777e3;
+    margin: 15px 0;
+    line-height: 1.7;
+}
+
+/* Project Styles */
+.project {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f5f7ff;
+    border-radius: 8px;
+    border-left: 3px solid #6e8efb;
+}
+
+.project h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 1.1rem;
+}
+
+.project h4 i {
+    color: #6e8efb;
+    margin-right: 8px;
+}
+
+.tech-stack {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+
+.tech-stack i {
+    margin-right: 8px;
+    color: #6e8efb;
+    width: 20px;
+    text-align: center;
+}
+
+.tech-item {
+    background-color: #e8f0fe;
+    color: #1a237e;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+     transition: all 0.2s ease;
+}
+.tech-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Lists Styles */
+.skill-list, .hobby-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-list li, .hobby-list li {
+    background-color: #e8f0fe;
+    color: #1a237e;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.hobby-list li {
+    background-color: #f0f7ff;
+    color: #0d47a1;
+}
+
+.skill-list li:hover, .hobby-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Container */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skills-category {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+
+
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #6e8efb;
+    width: 20px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #1a237e;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #6e8efb;
+    text-decoration: underline;
+}
+
+/* Social Media Section */
+.social {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f7ff;
+    color: #0d47a1;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.social-link i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+    background-color: #e8f0fe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* GitHub specific color */
+.fa-github { color: #333; }
+/* LinkedIn specific color */
+.fa-linkedin { color: #0077b5; }
+/* Instagram specific color */
+.fa-instagram { color: #e4405f; }
+/* LeetCode - Orange */
+.fa-code { color: #ffa116; } 
+/* HackerRank - Green */
+.fa-hackerrank { 
+    color: #2ec866; 
+    font-weight: bold;
+}
+
+.fa-trophy {
+    color: #FFD700; /* Gold color for ranking */
+    background: linear-gradient(to right, #7B7B7B, #A0522D); /* CodeChef's gray-brown gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+/* Footer improvements */
+.footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.footer-note {
+    margin-top: 15px;
+    color: #888;
+}
+
+.footer-note i {
+    color: #e91e63;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    section {
+        padding: 20px 15px;
+    }
+}
